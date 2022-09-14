@@ -91,15 +91,16 @@
 
   margin-bottom: 35px;
 
-  background-color: @lite-gray;
-
   @media (min-width: @tablet-width) {
-    min-height: 455px;
+    min-height: 446px;
     order: -1;
+
+    margin-bottom: 46px;
   }
 
   @media (min-width: @desktop-width) {
     grid-row: 1/-1;
+    min-height: 455px;
   }
 }
 
@@ -109,24 +110,24 @@
   @media (max-width: (@tablet-width - 1)) {
     display: block;
     position: absolute;
-    top: 98px;
+    top: 97px;
   }
 }
 
 .production__play-button {
   position: absolute;
-  top: 135px;
-  left: 79px;
+  top: 132px;
+  left: 73px;
   transition: transform 0.2s ease;
 
   @media (min-width: @tablet-width) {
     top: 185px;
-    left: 283px;
+    left: 277px;
   }
 
   @media (min-width: @desktop-width) {
     top: 188px;
-    left: 291px;
+    left: 285px;
   }
 
   &:hover {
